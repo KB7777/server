@@ -366,7 +366,7 @@ class Setup {
 			Installer::installShippedApps();
 
 			// create empty file in data dir, so we can later find
-			// out that this is indeed an ownCloud data directory
+			// out that this is indeed an Nextcloud data directory
 			file_put_contents($config->getSystemValue('datadirectory', \OC::$SERVERROOT.'/data').'/.ocdata', '');
 
 			// Update .htaccess files
